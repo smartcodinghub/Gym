@@ -15,8 +15,8 @@ namespace Gym.Site
             config.MapHttpAttributeRoutes();
 
             config.Routes.MapHttpRoute(
-                name: "DefaultApi",
-                routeTemplate: "api/{controller}/{id}",
+                name: "Gym",
+                routeTemplate: "Gym/{controller}/{id}",
                 defaults: new { id = RouteParameter.Optional }
             );
         }
