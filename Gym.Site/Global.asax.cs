@@ -9,6 +9,7 @@ namespace Gym.Site
         {
             GlobalConfiguration.Configure(WebApiConfig.Register);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
+            AutofacConfig.Run();
         }
     }
 }
